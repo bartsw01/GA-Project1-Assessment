@@ -15,6 +15,11 @@ function addButton() {
     inputNumber = document.getElementById("enterNumber").value;
     displayNumber = parseInt(displayNumber) + parseInt(inputNumber);
     document.getElementById("answer").textContent = `${displayNumber}`;
+    if (displayNumber >= 0) {
+        document.getElementById("answer").style.color = "black";
+        } else {
+            document.getElementById("answer").style.color = "red";
+        }
     console.log("It Adds!");
     console.log(displayNumber);
     
@@ -26,6 +31,11 @@ function subtractButton (){
     inputNumber = document.getElementById("enterNumber").value;
     displayNumber = displayNumber - inputNumber;
     document.getElementById("answer").textContent = `${displayNumber}`;
+    if (displayNumber >= 0) {
+        document.getElementById("answer").style.color = "black";
+        } else {
+            document.getElementById("answer").style.color = "red";
+        }
     
     console.log("It subtracts!");
     console.log(displayNumber);
