@@ -1,6 +1,13 @@
-section {
-    display: flex;  /* defaults to row layout */
-    justify-content: center;  /* centers items horizontally in row layout */
-    align-items: center;  /* centers vertically in row layout */
-    /* flex-direction: column; will set layout to column instead of row */
-}
+/* button {
+    background-color: lightgray;
+    border: none;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+  } */
+
