@@ -1,13 +1,11 @@
-/* button {
-    background-color: lightgray;
-    border: none;
+.btn-secondary {
     color: white;
-    padding: 30px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 4px;
-    cursor: pointer;
-  } */
+    background-color: darkgrey;
+    border-color: darkgrey; /*set the color you want here*/
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+    color:darkgrey;
+    background-color: white;
+    border-color: white; /*set the color you want here*/
+}
 
